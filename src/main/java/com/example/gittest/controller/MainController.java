@@ -10,4 +10,9 @@ public class MainController {
     public String sayHello() {
         return "Hello World!";
     }
+
+    @GetMapping("/save")
+    public String saveStudent() {
+        return "Person was saved";
+    }
 }
