@@ -17,4 +17,9 @@ public class MainController {
         return "Person was saved!";
     }
 
+    @GetMapping("all-students")
+    public String getStudents() {
+        return "List of all students";
+    }
+
 }
