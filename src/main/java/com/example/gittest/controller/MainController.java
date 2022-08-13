@@ -13,6 +13,6 @@ public class MainController {
 
     @GetMapping("/save")
     public String saveStudent() {
-        return "Person was saved";
+        return "Person was saved!";
     }
 }
